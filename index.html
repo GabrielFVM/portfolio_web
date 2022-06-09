@@ -3,27 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>portfolio Gabriel Fonseca Vassolli de Matos</title>
-        <style>
-            body {
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                background-color: lavender;
-            }
-            
-            #foto {
-                border-radius: 100%;
-            }
-            h1, h2 {
-                color: cadetblue;
-            }
-            .button {
-                background-color: black;
-                padding: 15px 40px ;
-                border-radius: 15px;
-                color: white;
-                text-decoration: wavy;
-                transition: ease-out;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Gabriel Fonseca Vassolli de Matos</h1>
@@ -38,18 +18,20 @@
             <br>
             <a href="#Github">Meu Github link</a>
         </ol>
-        <h2>Depoimento de experiencia profissional</h2>
-        <p id="depoimento">comecei a estudar na <strong>trybe</strong> pela turma 24, em maio de 2022. a partir de lá, <strong>eu era só curioso quanto a área</strong>. Porém, atualmente, <strong> sou muito mais interessado por programação e por ser dev</strong>. <br> Codar virou uma paixão rápido, assim como a paixão que estou tendo a aprender mais sobre!</p>
-        <br>
-        <h2>Habilidades</h2>
-        <ul id="habilidades">
-            <li><strong>Aprendo e evoluo rápido</strong></li>
-            <li>Tenho facilidade em diálogos</li>
-            <li>Tenho conhecimento sobre UNIX & BASH, Git e estou estudando HTML</li>
-            <li>Conhecimento sobre photoshop e Unreal Engine</li>
-        </ul>
-        <a href="#foto">^Topo^</a>
+        <div id="textos"> 
+            <h2>Depoimento de experiencia profissional</h2>
+            <p id="depoimento">comecei a estudar na <strong>trybe</strong> pela turma 24, em maio de 2022. a partir de lá, <strong>eu era só curioso quanto a área</strong>. Porém, atualmente, <strong> sou muito mais interessado por programação e por ser dev</strong>. <br> Codar virou uma paixão rápido, assim como a paixão que estou tendo a aprender mais sobre!</p>
+            <br>
+            <h2>Habilidades</h2>
+            <ul id="habilidades">
+                <li><strong>Aprendo e evoluo rápido</strong></li>
+                <li>Tenho facilidade em diálogos</li>
+                <li>Tenho conhecimento sobre UNIX & BASH, Git e estou estudando HTML</li>
+                <li>Conhecimento sobre photoshop e Unreal Engine</li>
+            </ul>
+        </div>
+        <a id="volta" href="#foto">^Topo^</a>
         <br><br>
-        <a class="button" href="https://github.com/GabrielFVM" target="_blank">Meu Github</a>
+        <a id="button" href="https://github.com/GabrielFVM" target="_blank">Meu Github</a>
     </body>
 </html>
